@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from 'react';
-import AppFunction, { AppClass } from './App';
+import AppFunction, { AppClass } from '../App';
 
 export const Sample = () => {
 	const [visible, setVisible] = useState<boolean>(true);
