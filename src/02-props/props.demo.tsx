@@ -81,7 +81,7 @@ type InputGroupProps1 = {
 };
 const InputGroup1 = ({ children }: InputGroupProps1) => {
 	return <div style={{ padding: 10 }}>{children}</div>;
-};
+};s
 
 // Not: Reactda component isimleri Büyük harfler ile başlamalı, küçük harf olursa html element sanıyor. Dosya isimleri istenildiği gibi tanımlanabilir
 type TextInputProps = {
